@@ -1,0 +1,191 @@
+* {
+    font-family: 'Catamaran', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+
+.banner-1 {
+    background: url(../images/banners/pexels-samson-katt-5256088.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+    }
+
+    
+    .banner-1 img{
+        
+    }
+
+
+
+.banner-1 h2,
+h3 {
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+
+.banner-1 h2 {
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+
+.banner-2 {
+    background: url(../images/pexels-tima-miroshnichenko-6693661.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: start; */
+    flex-direction: column;
+    color: #fff;
+    /* text-align: center; */
+
+}
+
+.banner-2 h2,
+h3 {
+    margin-top: 3rem;
+}
+
+.banner-3 {
+    background: url(../images/banners/pexels-tim-douglas-6567607.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: start; */
+    flex-direction: column;
+    color: #fff;
+    /* text-align: center; */
+}
+
+.banner-3 h2,
+h3 {
+    margin-top: 2rem;
+    /* margin-bottom: ; */
+}
+
+
+
+.card {
+    transition: .5s;
+    border: none;
+    background: none;
+    width: 40%;
+    border: 1rem;
+}
+
+
+.card img {
+    transition: .5s;
+}
+
+.card video {
+    transition: .5s;
+}
+
+.card video:hover {
+    transform: scale(1.1);
+}
+
+
+.card img:hover {
+    transform: scale(1.1);
+}
+
+.card h5 {
+    font-weight: 600;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.card p {
+    font-size: 1.2rem;
+    color: #fff;
+
+}
+
+.card p,
+h5 {
+    margin-top: 5rem;
+}
+
+
+.card:hover {
+    background-color: var(--bg-blue-2);
+}
+
+.card:hover .icon {
+    transform: scale(1.5);
+}
+
+.icon-social,
+.icon-contato {
+    font-size: 2rem;
+    color: var(--bg-blue-1);
+    transition: .5s;
+}
+
+.icon-social:hover {
+    color: var(--bg-blue-3);
+}
+
+.icon {
+    font-size: 60px;
+    color: var(--bg-blue-1);
+    margin: 24px 0;
+    transition: .5s;
+}
+
+.invest {
+    width: 75%;
+    border: none;
+    margin-left: 2rem;
+    background-color: #bed5ff;
+    display: flex;
+    align-items: end;
+}
+
+.investimentos {
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #000000;
+    padding: 50px 0;
+}
+
+footer ul {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+footer ul li {
+    margin-right: 10px;
+}
+
+footer ul li:last-child {
+    margin-right: 0;
+}
+
+footer ul li a {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+footer p {
+    color: var(--color-1);
+    text-align: center;
+}
