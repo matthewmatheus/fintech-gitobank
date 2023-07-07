@@ -16,12 +16,9 @@
     flex-direction: column;
     color: #fff;
     text-align: center;
-    }
+}
 
-    
-    .banner-1 img{
-        
-    }
+
 
 
 
@@ -50,10 +47,7 @@ h3 {
 
 }
 
-.banner-2 h2,
-h3 {
-    margin-top: 3rem;
-}
+
 
 .banner-3 {
     background: url(../images/banners/pexels-tim-douglas-6567607.jpg);
@@ -67,11 +61,6 @@ h3 {
     /* text-align: center; */
 }
 
-.banner-3 h2,
-h3 {
-    margin-top: 2rem;
-    /* margin-bottom: ; */
-}
 
 
 
