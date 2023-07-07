@@ -44,49 +44,95 @@
 
 
 
-/* ---------------------card------------------- */
+/* ---------------------card card babber------------------- */
 
 
-.card h5{
+.card-banner h5{
     font-weight: 800;
     font-size: 2rem;
     color: #fff;
-    margin-top: 20rem;
+    margin-top: 10rem;
 }
 
-.card p{
+.card-banner p{
     font-weight: 600;
     font-size: 1.5rem;
     color: #fff;
 }
 
 
-.card {
+.card-banner {
     transition: .5s;
     border: 1rem;
     background: none;
 }
 
 
-.card img {
+.card-banner img {
     transition: .5s;
 }
 
-.card video {
+.card-banner video {
     transition: .5s;
 }
 
-.card video:hover {
-    transform: scale(1.1);
+.card-banner video:hover {
+    transform: scale(0.9);
 }
 
 
-.card img:hover {
-    transform: scale(1.1);
+.card-banner img:hover {
+    transform: scale(0.9);
 }
 
 
-/* ---------------------card------------------- */
+/* ---------------------card banner------------------- */
+
+
+
+
+
+
+
+/* -----------------------card-card-------------------------- */
+
+
+.cards .card{
+    transition: .5s;
+    background: transparent;
+    color: #000;
+    padding: 2rem;
+    margin-bottom: 5rem;
+    border: none;
+}
+
+.cards .card h5{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.cards .card p{
+    font-size: 1.2rem;
+}
+
+.cards .card img{
+    width: 100%;
+}
+
+
+
+
+.card-footer{
+    background: none;
+    border: none;
+}
+
+
+
+
+
+
+/* -----------------------card-card-------------------------- */
 
 .icon-social,
 .icon-contato {
