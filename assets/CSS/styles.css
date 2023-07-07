@@ -20,56 +20,51 @@
 
 
 
-
-
-.banner-1 h2,
-h3 {
-    margin-left: 3rem;
-    margin-bottom: 1rem;
-}
-
-.banner-1 h2 {
+.banner-1,.banner-2, .banner-3 h2 {
     font-weight: 800;
     font-size: 3rem;
+
 }
 
 
 .banner-2 {
     background: url(../images/pexels-tima-miroshnichenko-6693661.jpg);
     background-size: cover;
-    min-height: 100vh;
-    display: flex;
-    /* justify-content: center; */
-    /* align-items: start; */
-    flex-direction: column;
     color: #fff;
-    /* text-align: center; */
-
 }
+
 
 
 
 .banner-3 {
     background: url(../images/banners/pexels-tim-douglas-6567607.jpg);
     background-size: cover;
-    min-height: 100vh;
-    display: flex;
-    /* justify-content: center; */
-    /* align-items: start; */
-    flex-direction: column;
     color: #fff;
-    /* text-align: center; */
 }
 
 
 
+/* ---------------------card------------------- */
+
+
+.card h5{
+    font-weight: 800;
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 20rem;
+}
+
+.card p{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
 
 .card {
     transition: .5s;
-    border: none;
-    background: none;
-    width: 40%;
     border: 1rem;
+    background: none;
 }
 
 
@@ -90,68 +85,27 @@ h3 {
     transform: scale(1.1);
 }
 
-.card h5 {
-    font-weight: 600;
-    font-size: 2rem;
-    color: #fff;
-}
 
-.card p {
-    font-size: 1.2rem;
-    color: #fff;
-
-}
-
-.card p,
-h5 {
-    margin-top: 5rem;
-}
-
-
-.card:hover {
-    background-color: var(--bg-blue-2);
-}
-
-.card:hover .icon {
-    transform: scale(1.5);
-}
+/* ---------------------card------------------- */
 
 .icon-social,
 .icon-contato {
     font-size: 2rem;
-    color: var(--bg-blue-1);
+    color: #3939d8;
     transition: .5s;
 }
 
-.icon-social:hover {
-    color: var(--bg-blue-3);
+.icon-social, .icon-contato:hover {
+    color: #a0dff8;
+    transform: scale(1.2);
 }
 
-.icon {
-    font-size: 60px;
-    color: var(--bg-blue-1);
-    margin: 24px 0;
-    transition: .5s;
-}
 
-.invest {
-    width: 75%;
-    border: none;
-    margin-left: 2rem;
-    background-color: #bed5ff;
-    display: flex;
-    align-items: end;
-}
 
-.investimentos {
-    display: flex;
-    align-items: center;
-}
+/* ---------------------footer----------------------- */
 
 footer {
-    display: flex;
     flex-direction: column;
-    align-items: center;
     background: #000000;
     padding: 50px 0;
 }
@@ -159,22 +113,23 @@ footer {
 footer ul {
     display: flex;
     margin-bottom: 25px;
+    list-style: none;
 }
 
 footer ul li {
-    margin-right: 10px;
+    margin-right: 1rem;
 }
 
 footer ul li:last-child {
-    margin-right: 0;
+    margin-right: 2.2rem;
 }
 
 footer ul li a {
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 4rem;
 }
 
 footer p {
-    color: var(--color-1);
+    color: #fff;
     text-align: center;
 }
